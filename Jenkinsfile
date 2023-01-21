@@ -3,7 +3,7 @@ node {
 
     docker.withRegistry('https://registry.hub.docker.com', 'dockerHub') {
 
-        def customImage = docker.build("20120262/simpleweb:1.1")
+        def customImage = docker.build("20120262/lab03cicd")
 
         /* Push the container to the custom Registry */
         customImage.push()
