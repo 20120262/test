@@ -24,4 +24,4 @@ COPY . .
 EXPOSE 8080
 
 # when the container is running we can use these cmd in CLI
-CMD [ "node", "app.js" ]
+CMD [ "node", "server.js" ]
